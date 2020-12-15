@@ -1,8 +1,12 @@
 const express = require('express');
-
-
+const connectDB = require('./config/db');
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+
+// Connect DB
+connectDB();
+
 
 //Getting API json info
 app.get('/', (req, res) => res.json({ msg: 'Welcome to Contact API' }));
