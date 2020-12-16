@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://nick-costanza:nick-costanza@cluster0.lr64l.mongodb.net/ContactKeeper?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://nick-costanza:nick-costanza@cluster0.lr64l.mongodb.net/ContactKeeper?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }
