@@ -8,8 +8,6 @@ const { check, validationResult } = require('express-validator');
 // @route POST api/users
 // @desc Register a user
 // @access Public
-
-// Express Validation for Users Input
 router.post('/', [
     check('name', 'Name is required')
         .not()
